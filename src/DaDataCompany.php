@@ -58,7 +58,7 @@ class DaDataCompany extends DaDataService
     public function prompt(string $company,
                            int $count = 10,
                            array $status = [CompanyStatus::ACTIVE],
-                           int $type = CompanyType::INDIVIDUAL,
+                           ?int $type = CompanyType::INDIVIDUAL,
                            string $locations = null,
                            string $locations_boost = null
 
